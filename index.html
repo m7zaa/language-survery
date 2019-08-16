@@ -13,75 +13,89 @@
       <h1>Programming Language Survey</h1>
       <h3>Take the survey below to find which language is best suited for you and your project!</h3>
     </div>
-  <div>
-    <form id="survey">
-      <div class="form-group">
+    <div>
+      <form id="survey">
+        <div class="form-group">
 
-        <div id="name">
-          <label for="name">Name:</label>
-          <input type="text" name="name" id="name" value="">
+          <div id="name">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" value="">
+          </div>
+
+          <div id="questionOne">
+            <label for="questionTwo">1: Do you prefer simplicity?</label>
+            <select class="" name="">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+
+          <div id="questionTwo">
+            <label for="questionTwo">2: Do you want to write apps for Microsoft Windows?</label>
+            <select class="" name="">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+
+          <div id="questionThree">
+            <label for="questionTwo">3: Do you want to make games?</label>
+            <select class="" name="">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+
+          <div id="questionFour">
+            <label for="questionTwo">4: Do you want to work remotely?</label>
+            <select class="" name="">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+
+          <div id="questionFive">
+            <label for="questionTwo">5: Do you use a mac or pc?</label>
+            <select class="" name="">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+
+          <div class="submit-button">
+            <button id="submitButton" type="button" name="button">Submit!</button>
+          </div>
         </div>
-
-        <div id="questionOne">
-          <label for="questionTwo">1: Do you prefer simplicity?</label>
-          <select class="" name="">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-          </select>
-        </div>
-
-        <div id="questionTwo">
-          <label for="questionTwo">2: Do you want to write apps for Microsoft Windows?</label>
-          <select class="" name="">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-          </select>
-        </div>
-
-        <div id="questionThree">
-          <label for="questionTwo">3: Do you want to make games?</label>
-          <select class="" name="">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-          </select>
-        </div>
-
-        <div id="questionFour">
-          <label for="questionTwo">4: Do you want to work remotely?</label>
-          <select class="" name="">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-          </select>
-        </div>
-
-        <div id="questionFive">
-          <label for="questionTwo">5: Do you use a mac or pc?</label>
-          <select class="" name="">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-          </select>
-        </div>
-
-        <div class="submit-button">
-          <button type="button" name="button">Submit!</button>
-        </div>
+      </form>
+    </div>
 
 
 
+    <div class="results">
+      <div id="ruby">
+        <p><span class="name"></span>, you should check out Ruby!</p>
+        <p> Click <a href="https://www.ruby-lang.org/en/">here</a> to learn more.</p>
+        <img src="img/ruby.png" alt="Ruby logo.">
       </div>
-    </form>
-  </div>
+
+      <div id="cSharp">
+        <p><span class="name"></span>, you should check out C#!</p>
+        <p>Click <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/">here</a> to learn more.</p>
+        <img src="img/c.png" alt="C# logo.">
+      </div>
+      <div id="bash">
+
+        <p><span class="name"></span>, you should check out Bash!</>
+        <p>Click <a href="https://www.gnu.org/software/bash/">here</a> to learn more.</p>
+        <img src="img/bash.png" alt="Bash logo.">
+      </div>
 
 
 
 
 
 
-
-
-
-
-
+    </div>
   </div>
 </body>
 </html>
