@@ -7,23 +7,21 @@
   <script type="text/javascript" src="js/scripts.js"></script>
   <title>Language Survey</title>
 </head>
-<body>
+<body background="img/background.jpg">
   <div class="container">
     <div class="header">
       <h1>Programming Language Survey</h1>
-      <h3>Take the survey below to find which language is best suited for you and your project!</h3>
+      <p>Take the survey below to find which language is best suited for you and your project!</p>
     </div>
     <div>
       <form id="survey">
         <div class="form-group">
-
           <div id="userName">
-            <label for="name">Name:</label>
+            <label id="label-id" for="name">Start with typing your name here <span id="pointer"><img src="img/pointer.png" alt="Pointer"></span></label>
             <input type="text" name="name" id="name" value="">
           </div>
-
           <div id="questionOne">
-            <label for="questionTwo">1: Do you prefer simplicity?</label>
+            <label for="questionTwo"><span id="simple-img"><img src="img/simple.jpg" alt="simplicity"></span>Do you prefer simplicity?</label>
             <select id="simplicity" name="simplicity">
               <option value="yes">Yes</option>
               <option value="no">No</option>
@@ -31,7 +29,7 @@
           </div>
 
           <div id="questionTwo">
-            <label for="questionTwo">2: Do you want to write apps for Microsoft Windows?</label>
+            <label for="questionTwo"><span id="windows-logo"><img src="img/windows.png" alt="Windows logo"></span>Do you want to write apps for Microsoft Windows?</label>
             <select id="windows" name="">
               <option value="yes">Yes</option>
               <option value="no">No</option>
@@ -39,7 +37,7 @@
           </div>
 
           <div id="questionThree">
-            <label for="questionTwo">3: Do you want to make games?</label>
+            <label for="questionTwo"><span id="mario"><img src="img/mario.png" alt="Photo of Mario"></span>Do you want to make games?</label>
             <select id="games" name="games">
               <option value="yes">Yes</option>
               <option value="no">No</option>
@@ -47,7 +45,7 @@
           </div>
 
           <div id="questionFour">
-            <label for="questionTwo">4: Do you want to work remotely?</label>
+            <label for="questionTwo"><span id="nomad"><img src="img/nomad.jpg" alt="Digital Nomad"></span>Do you want to work remotely?</label>
             <select id="workRemotely" name="workRemotely">
               <option value="yes">Yes</option>
               <option value="no">No</option>
@@ -55,7 +53,7 @@
           </div>
 
           <div id="questionFive">
-            <label for="questionTwo">5: Do you use a mac or pc?</label>
+            <label for="questionTwo"><span id="macVsPc"><img src="img/macpc.jpg" alt="Mac vs Pc"></span>Do you use a Mac or Windows?</label>
             <select id="macPc" name="macPc">
               <option value="yes">Yes</option>
               <option value="no">No</option>
@@ -83,11 +81,17 @@
         <p>Click <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/">here</a> to learn more.</p>
         <img src="img/c.png" alt="C# logo.">
       </div>
-      <div id="bash">
 
+      <div id="bash">
         <p><span class="name"></span>, you should check out Bash!</>
         <p>Click <a href="https://www.gnu.org/software/bash/">here</a> to learn more.</p>
         <img src="img/bash.png" alt="Bash logo.">
+      </div>
+
+      <div id="javaScript">
+        <p><span class="name"></span>, you should check out JavaScript!</>
+        <p>Click <a href="https://www.javascript.com/">here</a> to learn more.</p>
+        <img src="img/js.png" alt="JavaScript logo.">
       </div>
 
 

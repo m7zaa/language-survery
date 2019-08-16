@@ -9,3 +9,131 @@
 #bash {
   display: none;
 }
+
+#javaScript {
+  display: none;
+}
+body {
+
+  background-size: auto;
+}
+#survey {
+  color: darkred;
+  font-weight: bold;
+  font-size: 20px;
+}
+.header {
+  text-align: center;
+  border-style: dashed;
+  border-radius: 3px;
+  border-width:: 10px;
+  border-color: red;
+  background-image: url('../img/header-img.jpg');
+  background-position: center;
+  background-size: cover;
+  margin: 30px;
+  padding: 40px;
+}
+
+.header h1 {
+  font-size: 80px;
+}
+
+.header p {
+  font-style: italic;
+  font-size: 20px;
+  align: center;
+}
+#userName {
+  margin: 15px;
+}
+
+#pointer img {
+  height: 50px;
+  margin: 5px;
+}
+
+#questionOne {
+  margin: 10px;
+  background: white;
+  background-size: 50px;
+  margin-right: 650px;
+  border-radius: 10px;
+
+}
+
+#windows-logo img{
+  height: 60px;
+  margin: 10px;
+}
+
+#questionTwo {
+  margin: 10px;
+  background: white;
+  background-size: 50px;
+  margin-right: 460px;
+  border-radius: 10px;
+}
+
+#simple-img img {
+  height: 60px;
+  margin: 10px;
+
+}
+#questionThree {
+  margin: 10px;
+  background: white;
+  background-size: 50px;
+  margin-right: 650px;
+  border-radius: 10px;
+}
+
+#mario img {
+  height: 60px;
+  margin: 10px;
+
+}
+#questionFour {
+  margin: 10px;
+  background: white;
+  background-size: 50px;
+  margin-right: 620px;
+  border-radius: 10px;
+
+}
+
+#nomad img {
+  height: 60px;
+  margin: 10px;
+
+}
+#questionFive {
+  margin: 10px;
+  background: white;
+  background-size: 50px;
+  margin-right: 615px;
+  border-radius: 10px;
+}
+
+#label-id {
+  background: white;
+  background-size: 50px;
+  margin-right: 10px;
+  border-radius: 10px;
+
+}
+#macVsPc img {
+  height: 60px;
+  margin: 10px;
+
+}
+
+.submit-button {
+  margin: 30px;
+
+}
+
+#submitButton:hover {
+  background-color: green;
+
+}
