@@ -1,27 +1,60 @@
 #ruby {
   display: none;
+  margin: 10px;
+  padding: 20px;
+  background: white;
+  background-size: 50px;
+  margin-right: 560px;
+  border-radius: 10px;
+  text-align: center;
+}
+#ruby img {
+  height: 300px;
 }
 
 #cSharp {
   display: none;
+  margin: 10px;
+  padding: 20px;
+  background: white;
+  background-size: 50px;
+  margin-right: 560px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 #bash {
   display: none;
+  margin: 10px;
+  padding: 20px;
+  background: white;
+  background-size: 50px;
+  margin-right: 560px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 #javaScript {
   display: none;
+  margin: 10px;
+  padding: 20px;
+  background: white;
+  background-size: 50px;
+  margin-right: 560px;
+  border-radius: 10px;
+  text-align: center;
 }
-body {
 
+body {
   background-size: auto;
 }
+
 #survey {
   color: darkred;
   font-weight: bold;
   font-size: 20px;
 }
+
 .header {
   text-align: center;
   border-style: dashed;
@@ -31,7 +64,7 @@ body {
   background-image: url('../img/header-img.jpg');
   background-position: center;
   background-size: cover;
-  margin: 30px;
+  margin: 50px;
   padding: 40px;
 }
 
@@ -57,13 +90,12 @@ body {
   margin: 10px;
   background: white;
   background-size: 50px;
-  margin-right: 650px;
+  margin-right: 570px;
   border-radius: 10px;
-
 }
 
 #windows-logo img{
-  height: 60px;
+  height: 100px;
   margin: 10px;
 }
 
@@ -71,12 +103,12 @@ body {
   margin: 10px;
   background: white;
   background-size: 50px;
-  margin-right: 460px;
+  margin-right: 430px;
   border-radius: 10px;
 }
 
 #simple-img img {
-  height: 60px;
+  height: 100px;
   margin: 10px;
 
 }
@@ -84,12 +116,12 @@ body {
   margin: 10px;
   background: white;
   background-size: 50px;
-  margin-right: 650px;
+  margin-right: 620px;
   border-radius: 10px;
 }
 
 #mario img {
-  height: 60px;
+  height: 100px;
   margin: 10px;
 
 }
@@ -97,13 +129,13 @@ body {
   margin: 10px;
   background: white;
   background-size: 50px;
-  margin-right: 620px;
+  margin-right: 570px;
   border-radius: 10px;
 
 }
 
 #nomad img {
-  height: 60px;
+  height: 100px;
   margin: 10px;
 
 }
@@ -111,7 +143,7 @@ body {
   margin: 10px;
   background: white;
   background-size: 50px;
-  margin-right: 615px;
+  margin-right: 560px;
   border-radius: 10px;
 }
 
@@ -123,14 +155,18 @@ body {
 
 }
 #macVsPc img {
-  height: 60px;
+  height: 100px;
   margin: 10px;
 
 }
 
 .submit-button {
-  margin: 30px;
-
+  margin: 10px;
+  background: white;
+  background-size: 50px;
+  border-radius: 50px;
+  margin-right: 999px;
+  padding: 10px;
 }
 
 #submitButton:hover {
