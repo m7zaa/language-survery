@@ -9,9 +9,11 @@
 </head>
 <body background="img/background.jpg">
   <div class="container">
-    <div class="header">
-      <h1>Programming Language Survey</h1>
-      <p>Take the survey below to find which language is best suited for you and your project!</p>
+    <div class="box">
+      <div class="content">
+        <h1>Programming Language Survey</h1>
+        <p>Take the survey below to find which language is best suited for you and your project!</p>
+      </div>
     </div>
     <div>
       <form id="survey">
@@ -28,7 +30,7 @@
               <option value="no">No</option>
             </select>
           </div>
-<br>
+          <br>
           <div id="questionTwo">
             <label for="questionTwo"><span id="windows-logo"><img src="img/windows.png" alt="Windows logo"></span>Do you want to write apps for Microsoft Windows?</label>
             <select id="windows" name="">
@@ -36,7 +38,7 @@
               <option value="no">No</option>
             </select>
           </div>
-<br>
+          <br>
           <div id="questionThree">
             <label for="questionTwo"><span id="mario"><img src="img/mario.png" alt="Photo of Mario"></span>Do you want to make games?</label>
             <select id="games" name="games">
@@ -44,7 +46,7 @@
               <option value="no">No</option>
             </select>
           </div>
-<br>
+          <br>
           <div id="questionFour">
             <label for="questionTwo"><span id="nomad"><img src="img/nomad.jpg" alt="Digital Nomad"></span>Do you want to work remotely?</label>
             <select id="workRemotely" name="workRemotely">
@@ -52,7 +54,7 @@
               <option value="no">No</option>
             </select>
           </div>
-<br>
+          <br>
           <div id="questionFive">
             <label for="questionTwo"><span id="macVsPc"><img src="img/macpc.jpg" alt="Mac vs Pc"></span>Do you use a Mac or Windows?</label>
             <select id="macPc" name="macPc">
@@ -60,15 +62,17 @@
               <option value="no">No</option>
             </select>
           </div>
-<br>
+          <br>
           <div class="submit-button">
             <button id="submitButton" type="button" name="button">Submit!</button>
           </div>
+
+
         </div>
       </form>
     </div>
 
-<br>
+    <br>
 
     <div class="results">
       <div id="ruby">
@@ -85,22 +89,25 @@
 
       <div id="bash">
         <p><span class="name"></span>, you should check out Bash!</>
-        <p>Click <a href="https://www.gnu.org/software/bash/">here</a> to learn more.</p>
-        <img src="img/bash.png" alt="Bash logo.">
+          <p>Click <a href="https://www.gnu.org/software/bash/">here</a> to learn more.</p>
+          <img src="img/bash.png" alt="Bash logo.">
+        </div>
+
+        <div id="javaScript">
+          <p><span class="name"></span>, you should check out JavaScript!</>
+            <p>Click <a href="https://www.javascript.com/">here</a> to learn more.</p>
+            <img src="img/js.png" alt="JavaScript logo.">
+          </div>
+
+          <div class="retake-button">
+            <button id="retakeButton" type="submit" name="retakeButton">Retake The Survey</button>
+          </div>
+
+
+
+
+
+        </div>
       </div>
-
-      <div id="javaScript">
-        <p><span class="name"></span>, you should check out JavaScript!</>
-        <p>Click <a href="https://www.javascript.com/">here</a> to learn more.</p>
-        <img src="img/js.png" alt="JavaScript logo.">
-      </div>
-
-
-
-
-
-
-    </div>
-  </div>
-</body>
-</html>
+    </body>
+    </html>

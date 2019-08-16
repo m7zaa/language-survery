@@ -21,6 +21,7 @@
   margin-right: 560px;
   border-radius: 10px;
   text-align: center;
+
 }
 
 #bash {
@@ -32,6 +33,8 @@
   margin-right: 560px;
   border-radius: 10px;
   text-align: center;
+  align: center;
+
 }
 
 #javaScript {
@@ -43,6 +46,7 @@
   margin-right: 560px;
   border-radius: 10px;
   text-align: center;
+
 }
 
 body {
@@ -55,12 +59,12 @@ body {
   font-size: 20px;
 }
 
-.header {
+.box {
   text-align: center;
   border-style: dashed;
   border-radius: 3px;
   border-width:: 10px;
-  border-color: red;
+  border-color: white;
   background-image: url('../img/header-img.jpg');
   background-position: center;
   background-size: cover;
@@ -68,15 +72,16 @@ body {
   padding: 40px;
 }
 
-.header h1 {
+.box h1 {
   font-size: 80px;
 }
 
-.header p {
+.box p {
   font-style: italic;
   font-size: 20px;
   align: center;
 }
+
 #userName {
   margin: 15px;
 }
@@ -88,6 +93,7 @@ body {
 
 #questionOne {
   margin: 10px;
+  padding: inherit;
   background: white;
   background-size: 50px;
   margin-right: 570px;
@@ -101,6 +107,8 @@ body {
 
 #questionTwo {
   margin: 10px;
+  padding: inherit;
+
   background: white;
   background-size: 50px;
   margin-right: 430px;
@@ -114,6 +122,8 @@ body {
 }
 #questionThree {
   margin: 10px;
+  padding: inherit;
+
   background: white;
   background-size: 50px;
   margin-right: 620px;
@@ -127,6 +137,8 @@ body {
 }
 #questionFour {
   margin: 10px;
+  padding: inherit;
+
   background: white;
   background-size: 50px;
   margin-right: 570px;
@@ -141,6 +153,8 @@ body {
 }
 #questionFive {
   margin: 10px;
+  padding: inherit;
+
   background: white;
   background-size: 50px;
   margin-right: 560px;
@@ -171,6 +185,18 @@ body {
 }
 
 #submitButton:hover {
-  background-color: green;
-
+  background-color: lightgreen;
+}
+#retakeButton:hover {
+  background-color: lightgreen;
+}
+.retake-button {
+  display: none;
+  margin: 10px;
+  background: white;
+  background-size: 50px;
+  border-radius: 50px;
+  margin-right: 999px;
+  padding: 10px;
+  margin-bottom: 500px;
 }
