@@ -12,19 +12,19 @@ $(document).ready(function(){
 
     if (simplicity==="yes" && windows==="no" && games==="no") {
       $("#bash, #cSharp, #javaScript").hide();
-      $("#ruby").show();
+      $("#ruby").fadeIn();
     }
     else if (simplicity==="no" && windows==="yes" && games==="yes") {
       $("#bash, #ruby, #javaScript").hide();
-      $("#cSharp").show();
+      $("#cSharp").fadeIn();
     }
     else if (simplicity==="yes" && windows==="yes" && games==="no") {
       $("#bash, #ruby, #cSharp").hide();
-      $("#javaScript").show();
+      $("#javaScript").fadeIn();
     }
     else {
       $("#ruby, #cSharp, #javaScript").hide();
-      $("#bash").show();
+      $("#bash").fadeIn();
     }
   });
 });
