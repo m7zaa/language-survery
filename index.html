@@ -24,89 +24,72 @@
           </div>
           <br>
           <div id="questionOne">
-            <label for="questionTwo"><span id="simple-img"><img src="img/simple.jpg" alt="simplicity"></span>Do you prefer simplicity?</label>
-            <select id="simplicity" name="simplicity">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
+            <label>
+              <span id="simple-img"><img src="img/simple.jpg" alt="simplicity"></span>Do you prefer simplicity?</label>
+              <input type="radio" name="simplicity" value="yes">
+              Yes
+            </label>
+            <label>
+              <input type="radio" name="simplicity" value="no">
+              No
+            </label>
           </div>
           <br>
           <div id="questionTwo">
-            <label for="questionTwo"><span id="windows-logo"><img src="img/windows.png" alt="Windows logo"></span>Do you want to write apps for Microsoft Windows?</label>
-            <select id="windows" name="">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
+            <label for="questionTwo"><span id="windows-logo"><img src="img/windows.png" alt="Windows logo"></span>Do you want to write apps for Windows?</label>
+            <input type="radio" name="windows" value="yes">Yes</label>
+            <label><input type="radio" name="windows" value="no">No</label>
           </div>
           <br>
           <div id="questionThree">
-            <label for="questionTwo"><span id="mario"><img src="img/mario.png" alt="Photo of Mario"></span>Do you want to make games?</label>
-            <select id="games" name="games">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
+            <label for="questionThree"><span id="mario"><img src="img/mario.png" alt="Photo of Mario"></span>Do you want to make games?</label>
+            <input type="radio" name="games" value="yes">Yes</label>
+            <label><input type="radio" name="games" value="no">No</label>
           </div>
           <br>
           <div id="questionFour">
-            <label for="questionTwo"><span id="nomad"><img src="img/nomad.jpg" alt="Digital Nomad"></span>Do you want to work remotely?</label>
-            <select id="workRemotely" name="workRemotely">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
+            <label for="questionFour"><span id="nomad"><img src="img/nomad.jpg" alt="Digital Nomad"></span>Do you want to work remotely?</label>
+            <input type="radio" name="workRemotely" value="yes">Yes</label>
+            <label><input type="radio" name="workRemotely" value="no">No</label>
           </div>
           <br>
           <div id="questionFive">
-            <label for="questionTwo"><span id="macVsPc"><img src="img/macpc.jpg" alt="Mac vs Pc"></span>Do you use a Mac or Windows?</label>
-            <select id="macPc" name="macPc">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
+            <label for="questionFive"><span id="macVsPc"><img src="img/macpc.jpg" alt="Mac vs Pc"></span>Do you use a Mac or Windows?</label>
+            <input type="radio" name="macPc" value="yes">Yes</label>
+            <label><input type="radio" name="macPc" value="no">No</label>
           </div>
           <br>
           <div class="submit-button">
             <button id="submitButton" type="button" name="button">Submit!</button>
           </div>
-
-
         </div>
       </form>
     </div>
-
     <br>
-
     <div class="results">
       <div id="ruby">
         <p><span class="name"></span>, you should check out Ruby!</p>
         <p> Click <a href="https://www.ruby-lang.org/en/">here</a> to learn more.</p>
         <img src="img/ruby.png" alt="Ruby logo.">
       </div>
-
       <div id="cSharp">
         <p><span class="name"></span>, you should check out C#!</p>
         <p>Click <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/">here</a> to learn more.</p>
         <img src="img/c.png" alt="C# logo.">
       </div>
-
       <div id="bash">
         <p><span class="name"></span>, you should check out Bash!</>
           <p>Click <a href="https://www.gnu.org/software/bash/">here</a> to learn more.</p>
           <img src="img/bash.png" alt="Bash logo.">
         </div>
-
         <div id="javaScript">
           <p><span class="name"></span>, you should check out JavaScript!</>
             <p>Click <a href="https://www.javascript.com/">here</a> to learn more.</p>
             <img src="img/js.png" alt="JavaScript logo.">
           </div>
-
           <div class="retake-button">
             <button id="retakeButton" type="submit" name="retakeButton">Retake The Survey</button>
           </div>
-
-
-
-
-
         </div>
       </div>
     </body>
